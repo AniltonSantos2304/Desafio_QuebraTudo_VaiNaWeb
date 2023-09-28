@@ -164,7 +164,7 @@ programa {
 	   limpa()
     }enquanto(repete == verdadeiro)
     
-	    se(produto_selecionado > 0 e produto_selecionado < 10) {
+	    se(produto_selecionado >= 1  e produto_selecionado <= 10) {
 	      contabiliza(valores, quantidade)
 	      pagamento(valorTotal)
 	      se(faturaNota == verdadeiro) {
@@ -323,23 +323,13 @@ programa {
     } enquanto(cartao >= 5)
   }
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 6324; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 9975; 
+ * @POSICAO-CURSOR = 10708; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
